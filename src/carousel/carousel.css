@@ -1,0 +1,35 @@
+.carousel{
+    margin-top: 20px;
+    width: 1200px;
+    border: 1px solid red;
+    position: absolute;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    overflow-x: hidden;
+}
+
+.carousel .child-container{
+    display: flex;
+    flex-flow: nowrap;
+    align-items: center;
+    transition: all .5s ease;
+}
+
+.carousel .img{
+    min-height: 10vh;
+    border-radius: 8px;
+}
+
+.controls{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.controls button{
+    width: 24px;
+    height: 24px;
+    margin: 1rem;
+    text-align: center;
+    cursor: pointer;
+}
